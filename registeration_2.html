@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Student Registeration </title>
+    </head>
+    
+    <body>
+        
+            Roll : &nbsp;&nbsp;&nbsp;<input id="roll" type="number" size="35">   <br/><div id="r_a"></div><br/>
+            Name : <input id="name" type="text" size="35">     <br/><div id="n_a"></div><br/>
+            Date : &nbsp;&nbsp;<input id="date" type="text" size="35">     <br/><br/><br/>
+            <button style="margin-left: 5px" id="button"> Submit </button>
+            
+<script language="JavaScript">
+ 
+ document.getElementById("roll").addEventListener("change",function() {
+    if(document.getElementById("roll").value.length!=7)
+        document.getElementById("r_a").innerHTML="Enter 7 digit Roll no.".fontcolor("red");
+    else
+        document.getElementById("r_a").innerHTML="";
+ });
+
+ document.getElementById("name").addEventListener("change",function() {
+     let regex=/^[A-Za-z]+$/;
+    if(!regex.test(document.getElementById("name").value))
+        document.getElementById("n_a").innerHTML="Enter letters only in name".fontcolor("red");
+    else
+        document.getElementById("n_a").innerHTML="";
+ });
+
+ document.getElementById("date").addEventListener("change",function() {
+
+        let format = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        let d=document.getElementById("date").value.split('/');
+        let date=new Date(d[2],d[1]-1,d[0]);
+        document.getElementById("date").value=date.toLocaleDateString("en-US",format);
+ });
+
+ document.getElementById("button").addEventListener("click",function() {
+        alert("Submitted");
+ });
+
+</script>
+</body>
+</html>

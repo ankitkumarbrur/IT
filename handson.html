@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Infonet Services</title>
+    </head>
+    
+    <body>
+            <h1> Infonet Services </h1>
+
+            <form>
+                <input id="fn" type="text"> First Name          <br/><br/>
+                <input id="ln" type="text"> Last Name           <br/><br/>
+                <input id="e" type="text">  E-Mail Address      <br/><br/>
+                <input id="a" type="text">  Address             <br/><br/>
+                <input id="c" type="text">  City                <br/><br/>
+                <input id="s" type="text">  State               <br/><br/>
+                <input id="pc" type="text"> Postal Code         <br/><br/>
+                <input id="co" type="text"> Country             <br/><br/>
+            
+                <h7> <b>Please Choose the most appropriate statement</b> </h7> <br/>
+                <input type="radio" name="ap_stmt" id="stmt1" value="1"> I regularly purchase items online.<br/>
+                <input type="radio" name="ap_stmt" id="stmt2" value="2"> I on occasion purchase items online.<br/>
+                <input type="radio" name="ap_stmt" id="stmt3" value="3"> I have never purchased items online, but I will consider it.<br/>
+                <input type="radio" name="ap_stmt" id="stmt4" value="4"> I prefer to shop in real stores.<br/><br/><br/>
+            
+                <h7> <b>I'm interested in (choose all that apply)</b> </h7> <br/>
+                <input type="checkbox" name="interest" id="i1"> Hiking <br/>
+                <input type="checkbox" name="interest" id="i2"> Mountain Biking <br/>
+                <input type="checkbox" name="interest" id="i3"> Camping <br/>
+                <input type="checkbox" name="interest" id="i4"> Rock Climbing <br/>
+                <input type="checkbox" name="interest" id="i5"> Off-Road 4WD <br/>
+                <input type="checkbox" name="interest" id="i6"> Cross Country skiing <br/><br/><br/>    
+
+                <h7> <b>I learned about this site from</b> </h7> <br/>
+                <select id="learned">
+                    <option value="1">Print ads</option>
+                    <option value="2">Friend</option>
+                    <option value="3">online</option>
+                    <option value="4">Other</option>
+                </select><br/><br/><br/>    
+
+                <h7> <b> Comments </b> </h7> <br/>
+                <textarea name="comments" id="comment" cols="30" rows="5"></textarea><br/>
+                <input type="button" value="Submit" id="submit">&nbsp;<input type="reset" value="Start Over">
+            </form>
+<script language="JavaScript">
+ 
+document.getElementById("submit").addEventListener("click",function()
+{
+    if(document.getElementById("fn").value=="")
+        alert("Please Enter First Name");
+    else if(document.getElementById("ln").value=="")
+        alert("Please Enter last Name");
+    else if(document.getElementById("e").value=="")
+        alert("Please Enter E-Mail Address");
+    else if(document.getElementById("a").value=="")
+        alert("Please Enter Address");
+    else if(document.getElementById("c").value=="")
+        alert("Please Enter City");
+    else if(document.getElementById("s").value=="")
+        alert("Please Enter State");
+    else if(document.getElementById("pc").value=="")
+        alert("Please Enter Postal Code");
+    else if(document.getElementById("co").value=="")
+        alert("Please Enter Country");    
+});
+
+</script>
+</body>
+</html>

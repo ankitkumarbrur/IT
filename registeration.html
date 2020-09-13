@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Student Registeration </title>
+    </head>
+    
+    <body>
+        
+            Roll : &nbsp;&nbsp;&nbsp;<input id="roll" type="number" size="35"><br/><br/>
+            Name : <input id="name" type="text" size="35"><br/><br/>
+            Date : &nbsp;&nbsp;<input id="date" type="text" size="35"><br/><br/><br/>
+            <button style="margin-left: 5px" onclick="return validation()"> Validate </button>
+            
+<script language="JavaScript">
+
+function validation()
+{
+    document.getElementById("change").innerHTML="hello world";
+    var regex = /^[A-Za-z]+$/;
+    let roll=document.getElementById("roll").value;
+    let name=document.getElementById("name").value;
+    let date=document.getElementById("date").value;
+    if(roll==""||roll.length==7)
+    {
+        if(name==""||regex.test(name))
+        {
+            if(date!="")
+            {
+                var format = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                let d=document.getElementById("date").value.split('/');
+                let date=new Date(d[2],d[1]-1,d[0]);
+                document.getElementById("date").value=date.toLocaleDateString("en-US",format);
+                alert("Validated!!");
+            }
+        }
+        else
+            alert("Enter letters only in name");
+    }
+    else
+        alert("Enter 7 digit Roll no.");
+}
+
+</script>
+</body>
+</html>

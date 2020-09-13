@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Bubble Sort</title>
+    </head>
+    <body>
+        Push : <input type="text" id="push"/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="pus">Push</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="pop">Pop</button><br/><br/>
+        <div id="alert"></div><br/><br/>
+        <div id="pop_element"></div>
+        <script>
+            let top_stack=-1;
+            let stack1=Array();
+            document.getElementById("pus").addEventListener("click",function()
+            {
+                if(document.getElementById("push").value!="")
+                {
+                    stack1[++top_stack]=document.getElementById("push").value;
+                    document.getElementById("push").value="";
+                    printStack();
+                }
+                else
+                    document.getElementById("alert").innerHTML="Enter atleast one element".fontcolor("red");
+            });
+            document.getElementById("pop").addEventListener("click",function()
+            {
+                if(!(top_stack<0))
+                {
+                    document.getElementById("pop_element").innerHTML="Popped Element : "+stack1[top_stack];
+                    delete stack1[top_stack--];
+                }
+                else
+                    document.getElementById("pop_element").innerHTML="Stack Underflow".fontcolor("red");
+                printStack();
+            });
+            function printStack()
+            {
+                document.getElementById("alert").innerHTML="Stack : ";
+                for(let i=0;i<=top_stack;i++)
+                {
+                    document.getElementById("alert").innerHTML+=stack1[i]+"  ";
+                }
+            }
+        </script>
+    </body>
+</html>
