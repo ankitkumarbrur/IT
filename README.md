@@ -4,17 +4,26 @@
 1. Implement a Bank Account having Instance variables: Account Number, Balance and having methods:
 \
 float Deposit (float x)
-\ float withdraw (float x)
-- int get account no ()
-- float get balance ()
-- tax deduction ()
+\
+float withdraw (float x)
+\
+int get account no ()
+\
+float get balance ()
+\
+tax deduction ()
 \
 Then implement class Bank having an array list of accounts of type BankAccount. Implement following methods:
-- AddAccount in Bank
-- Get Total balance in Bank
-- Get account number with max. and min. balance
-- Find an account given a bank account no.
-- Count no. of accounts having atleast specific balance
+\
+AddAccount in Bank
+\
+Get Total balance in Bank
+\
+Get account number with max. and min. balance
+\
+Find an account given a bank account no.
+\
+Count no. of accounts having atleast specific balance
 2. Implement an Abstract Class Stack with methods push, pop, display for two classes:
 StaticStack and DyanamicStack. StaticStack uses one dimensional integer array to store
 numbers and DyanamicStack uses an integer ArrayList to store. 
@@ -25,18 +34,24 @@ numbers and DyanamicStack uses an integer ArrayList to store.
 
 ## JavaScript
 1. Create a student registration form. Create functions to perform the following checks:
-- Roll number is a 7 digit numeric value
-- Name should be an alphabetical value (String)
-- DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday,
+\
+Roll number is a 7 digit numeric value
+\
+Name should be an alphabetical value (String)
+\
+DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday,
 January 01, 2000)
-- Check on non-empty fields
+\
+Check on non-empty fields
 2. Implement a Static Password Protection.
 3. Write a JavaScript to sort an array using bubble sort. Take the number of elements and
 array from user.
 4. Write a JavaScript to implement stack methods (push and pop).
 5. Write a JavaScript
-* to change the color of text using setTimeOut()
-* to move an image across screen using setInterval()
+\
+to change the color of text using setTimeOut()
+\
+to move an image across screen using setInterval()
 6. Implement the question no. 1 of hands on exercises of chapter 10 (page 190, CWAD using HTML, JavaScript and PHP).
 
 ## JSP
@@ -49,12 +64,15 @@ array from user.
 1 2 3
 \
 Take ‘n’ in a textbox from user. Display this pattern using
-* Scriptlets
-* <c:forEach> loop
+\
+Scriptlets
+\
+<c:forEach> loop
 2. Make two files as follows:
-* main.html: shows 2 text boxes and 3 radio buttons with values "addition",
-"subtraction" and "multiplication"
-* operate.jsp: depending on what the user selects perform the corresponding function
+\
+main.html: shows 2 text boxes and 3 radio buttons with values "addition", "subtraction" and "multiplication"
+\
+operate.jsp: depending on what the user selects perform the corresponding function
 \
 (Give two implementations: using request.getParameter() and using expression
 language)
@@ -69,10 +87,13 @@ if the user selects even, check for vowels in all even positions in the word ent
 jstl’s ‘fn’ library.
 6. Create your custom library which contains two tags: <hello>, <choco>.
 Usage of the tags:
-* <hello name=”Ajay”>: Output should be Hello Ajay. It contains a mandatory
+\
+<hello name=”Ajay”>: Output should be Hello Ajay. It contains a mandatory
 attribute ‘name’ which can accept Dynamic value.
-* <choco texture=”Chewy”>: Output should be FiveStar, BarOne.
-* <choco texture=”Crunchy”>: Output should be Munch. KitKat.
+\
+<choco texture=”Chewy”>: Output should be FiveStar, BarOne.
+\
+  <choco texture=”Crunchy”>: Output should be Munch. KitKat.
 That means the mandatory attribute must accept a value, and based on the
 attributes value, it should give output. You must use a bean ChocoBean for this
 purpose.
