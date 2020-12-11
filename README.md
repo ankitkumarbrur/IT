@@ -8,7 +8,6 @@
 - float get balance ()
 - tax deduction ()
 \
-\
 Then implement class Bank having an array list of accounts of type BankAccount. Implement following methods:
 - AddAccount in Bank
 - Get Total balance in Bank
@@ -25,11 +24,11 @@ numbers and DyanamicStack uses an integer ArrayList to store.
 
 ## JavaScript
 1. Create a student registration form. Create functions to perform the following checks:
-a. Roll number is a 7 digit numeric value
-b. Name should be an alphabetical value (String)
-c. DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday,
+- Roll number is a 7 digit numeric value
+- Name should be an alphabetical value (String)
+- DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday,
 January 01, 2000)
-d. Check on non-empty fields
+- Check on non-empty fields
 2. Implement a Static Password Protection.
 3. Write a java script to sort an array using bubble sort. Take the number of elements and
 array from user.
