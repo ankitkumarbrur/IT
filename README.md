@@ -46,9 +46,9 @@ Take ‘n’ in a textbox from user. Display this pattern using
 > <c:forEach> loop
 2. Make two files as follows:
 \
-main.html: shows 2 text boxes and 3 radio buttons with values "addition", "subtraction" and "multiplication"
+- main.html: shows 2 text boxes and 3 radio buttons with values "addition", "subtraction" and "multiplication"
 \
-operate.jsp: depending on what the user selects perform the corresponding function
+- operate.jsp: depending on what the user selects perform the corresponding function
 \
 (Give two implementations: using request.getParameter() and using expression
 language)
@@ -64,10 +64,10 @@ jstl’s ‘fn’ library.
 6. Create your custom library which contains two tags: <hello>, <choco>.
 Usage of the tags:
 \
-``` <hello name=”Ajay”> ```: Output should be Hello Ajay. It contains a mandatory
+- ``` <hello name=”Ajay”> ```: Output should be Hello Ajay. It contains a mandatory
 attribute ‘name’ which can accept Dynamic value.
 \
-``` <choco texture=”Chewy”> ```: Output should be FiveStar, BarOne.
+- ``` <choco texture=”Chewy”> ```: Output should be FiveStar, BarOne.
 \
 ``` <choco texture=”Crunchy”> ```: Output should be Munch. KitKat.
 That means the mandatory attribute must accept a value, and based on the
