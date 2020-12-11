@@ -37,11 +37,11 @@ array from user.
 6. Implement the question no. 1 of hands on exercises of chapter 10 (page 190, CWAD using HTML, JavaScript and PHP).
 
 ## JSP
-1. Display the pattern:
-\ 1
-\ 1 2
-\ 1 2 3
-\ Take ‘n’ in a textbox from user. Display this pattern using
+1. Display the pattern: \
+1 \
+1 2 \
+1 2 3 \
+Take ‘n’ in a textbox from user. Display this pattern using
 > Scriptlets \
 > <c:forEach> loop
 2. Make two files as follows:
