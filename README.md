@@ -14,6 +14,7 @@ Then implement class Bank having an array list of accounts of type BankAccount. 
 > Get account number with max. and min. balance \
 > Find an account given a bank account no. \
 > Count no. of accounts having atleast specific balance
+
 2. Implement an Abstract Class Stack with methods push, pop, display for two classes:
 StaticStack and DyanamicStack. StaticStack uses one dimensional integer array to store
 numbers and DyanamicStack uses an integer ArrayList to store. 
@@ -24,40 +25,25 @@ numbers and DyanamicStack uses an integer ArrayList to store.
 
 ## JavaScript
 1. Create a student registration form. Create functions to perform the following checks:
-\
-Roll number is a 7 digit numeric value
-\
-Name should be an alphabetical value (String)
-\
-DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday,
-January 01, 2000)
-\
-Check on non-empty fields
+> Roll number is a 7 digit numeric value \
+> Name should be an alphabetical value (String) \
+> DOB entered in dd/mm/yy format and should be display in words (e.g. Saturday, January 01, 2000) \
+> Check on non-empty fields
 2. Implement a Static Password Protection.
 3. Write a JavaScript to sort an array using bubble sort. Take the number of elements and
 array from user.
 4. Write a JavaScript to implement stack methods (push and pop).
-5. Write a JavaScript
-\
-to change the color of text using setTimeOut()
-\
-to move an image across screen using setInterval()
+5. Write a JavaScript to change the color of text using setTimeOut() to move an image across screen using setInterval()
 6. Implement the question no. 1 of hands on exercises of chapter 10 (page 190, CWAD using HTML, JavaScript and PHP).
 
 ## JSP
 1. Display the pattern:
-\
-1
-\
-1 2
-\
-1 2 3
-\
-Take ‘n’ in a textbox from user. Display this pattern using
-\
-Scriptlets
-\
-<c:forEach> loop
+\ 1
+\ 1 2
+\ 1 2 3
+\ Take ‘n’ in a textbox from user. Display this pattern using
+> Scriptlets \
+> <c:forEach> loop
 2. Make two files as follows:
 \
 main.html: shows 2 text boxes and 3 radio buttons with values "addition", "subtraction" and "multiplication"
