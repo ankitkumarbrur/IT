@@ -2,7 +2,7 @@
 
 ## Java
 1. Implement a Bank Account having Instance variables: Account Number, Balance and
-having methods:
+having methods:\n
 float Deposit (float x)
 float withdraw (float x)
 int get account no ()
