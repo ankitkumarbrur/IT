@@ -42,10 +42,9 @@ array from user.
 1 2 \
 1 2 3 \
 Take ‘n’ in a textbox from user. Display this pattern using
-- Scriptlets \
+- Scriptlets
 - <c:forEach> loop
 2. Make two files as follows:
-\
 - main.html: shows 2 text boxes and 3 radio buttons with values "addition", "subtraction" and "multiplication"
 \
 - operate.jsp: depending on what the user selects perform the corresponding function
