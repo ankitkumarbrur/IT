@@ -3,15 +3,15 @@
 ## Java
 1. Implement a Bank Account having Instance variables: Account Number, Balance and having methods:
 \
-float Deposit (float x)
+> float Deposit (float x)
 \
-float withdraw (float x)
+> float withdraw (float x)
 \
-int get account no ()
+> int get account no ()
 \
-float get balance ()
+> float get balance ()
 \
-tax deduction ()
+> tax deduction ()
 \
 Then implement class Bank having an array list of accounts of type BankAccount. Implement following methods:
 \
