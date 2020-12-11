@@ -33,21 +33,23 @@ January 01, 2000)
 3. Write a java script to sort an array using bubble sort. Take the number of elements and
 array from user.
 4. Write a JavaScript to implement stack methods (push and pop).
-Internet Technologies Practical Guidelines
-B.Sc. (H) Computer Science 5th Semester
 5. Write a JavaScript
-a. to change the color of text using setTimeOut()
-b. to move an image across screen using setInterval()
+* to change the color of text using setTimeOut()
+* to move an image across screen using setInterval()
 6. Implement the question no. 1 of hands on exercises of chapter 10 (page 190, CWAD using HTML, JavaScript and PHP).
 
 ## JSP
 1. Display the pattern:
+/
 1
+/
 1 2
+/
 1 2 3
+/
 Take ‘n’ in a textbox from user. Display this pattern using
- Scriptlets
- <c:forEach> loop
+* Scriptlets
+* <c:forEach> loop
 2. Make two files as follows:
 a. main.html: shows 2 text boxes and 3 radio buttons with values "addition",
 "subtraction" and "multiplication"
