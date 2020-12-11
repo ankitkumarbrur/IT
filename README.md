@@ -30,7 +30,7 @@ numbers and DyanamicStack uses an integer ArrayList to store.
 January 01, 2000)
 - Check on non-empty fields
 2. Implement a Static Password Protection.
-3. Write a java script to sort an array using bubble sort. Take the number of elements and
+3. Write a JavaScript to sort an array using bubble sort. Take the number of elements and
 array from user.
 4. Write a JavaScript to implement stack methods (push and pop).
 5. Write a JavaScript
@@ -40,20 +40,21 @@ array from user.
 
 ## JSP
 1. Display the pattern:
-/
+\
 1
-/
+\
 1 2
-/
+\
 1 2 3
-/
+\
 Take ‘n’ in a textbox from user. Display this pattern using
 * Scriptlets
 * <c:forEach> loop
 2. Make two files as follows:
-a. main.html: shows 2 text boxes and 3 radio buttons with values "addition",
+* main.html: shows 2 text boxes and 3 radio buttons with values "addition",
 "subtraction" and "multiplication"
-b. operate.jsp: depending on what the user selects perform the corresponding function
+* operate.jsp: depending on what the user selects perform the corresponding function
+\
 (Give two implementations: using request.getParameter() and using expression
 language)
 3. Validate User input entered in a form. The input must include Name, DOB, Email ID,
@@ -67,10 +68,10 @@ if the user selects even, check for vowels in all even positions in the word ent
 jstl’s ‘fn’ library.
 6. Create your custom library which contains two tags: <hello>, <choco>.
 Usage of the tags:
- <hello name=”Ajay”>: Output should be Hello Ajay. It contains a mandatory
+* <hello name=”Ajay”>: Output should be Hello Ajay. It contains a mandatory
 attribute ‘name’ which can accept Dynamic value.
- <choco texture=”Chewy”>: Output should be FiveStar, BarOne.
-<choco texture=”Crunchy”>: Output should be Munch. KitKat.
+* <choco texture=”Chewy”>: Output should be FiveStar, BarOne.
+* <choco texture=”Crunchy”>: Output should be Munch. KitKat.
 That means the mandatory attribute must accept a value, and based on the
 attributes value, it should give output. You must use a bean ChocoBean for this
 purpose.
