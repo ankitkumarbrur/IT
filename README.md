@@ -8,6 +8,7 @@
 - float get balance ()
 - tax deduction ()
 \
+\
 Then implement class Bank having an array list of accounts of type BankAccount. Implement following methods:
 - AddAccount in Bank
 - Get Total balance in Bank
